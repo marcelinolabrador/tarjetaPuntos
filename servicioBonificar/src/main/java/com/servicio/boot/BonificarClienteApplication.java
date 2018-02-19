@@ -1,0 +1,12 @@
+package com.servicio.boot;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class BonificarClienteApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(BonificarClienteApplication.class, args);
+	}
+}
